@@ -5,7 +5,7 @@ $r = new \wedosDns01\dnsRowAddRequest();
 $r->domain = REGISTRABLE_DOMAIN;
 $r->name = DNS_ENTRY_NAME;
 $r->type = 'TXT';
-$r->ttl = 600;
+$r->ttl = 300;
 $r->rdata = CERTBOT_VALIDATION;
 $done = wedosDns()->dnsRowAdd($r);
 
