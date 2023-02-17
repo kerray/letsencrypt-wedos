@@ -1,4 +1,4 @@
 <?php
 
 define('HTTP01_WEBROOT_PATH', '/var/www/');
-define('HTTP01_ACME_CHALLENGE_PATH, '/.well-known/acme-challenge/');
+define('HTTP01_ACME_CHALLENGE_PATH', '/.well-known/acme-challenge/');
