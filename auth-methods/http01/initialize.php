@@ -3,7 +3,7 @@
 require_once __DIR__ . '/config.php';
 
 function certbot_file_dir() {
-	return rtrim(HTTP01_WEBROOT_PATH, '/') . '/.well-known/acme-challenge/';
+	return rtrim(HTTP01_WEBROOT_PATH, '/') . '/acme-challenge/';
 }
 
 function certbot_file_path() {
